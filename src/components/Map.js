@@ -4,7 +4,7 @@ import tw, { styled } from 'twin.macro'
 import { Icon } from 'leaflet'
 import { connect } from 'react-redux'
 
-import marker from '../../images/icon-location.svg'
+import marker from '../images/icon-location.svg'
 import ChangeMapView from './ChangeMapView'
 
 const MapStyled = styled(MapContainer)`

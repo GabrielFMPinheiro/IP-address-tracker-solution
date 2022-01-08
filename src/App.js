@@ -7,7 +7,7 @@ import BgImg from './images/pattern-bg.png'
 import Header from './components/Header'
 import Search from './components/Search'
 import Information from './components/Information'
-import Map from './components/leaflet/Map'
+import Map from './components/Map'
 import Loading from './components/Loading'
 
 import { fetchTracker } from './store/actions'
