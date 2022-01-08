@@ -36,8 +36,8 @@ Personal Challenge:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ip-address-tracker-solution-_FJJUeovr](https://www.frontendmentor.io/solutions/ip-address-tracker-solution-_FJJUeovr)
+- Live Site URL: [https://gabrielfmpinheiro.github.io/IP-address-tracker-solution/](https://gabrielfmpinheiro.github.io/IP-address-tracker-solution/)
 
 ## My process
 

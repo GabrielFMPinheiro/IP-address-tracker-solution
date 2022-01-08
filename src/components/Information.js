@@ -25,7 +25,7 @@ const InfoWrapper = styled.section`
       py-6
       md:pl-8
       md:pt-8
-      md:pb-12
+      md:pb-10
       z-20
     `
   }
