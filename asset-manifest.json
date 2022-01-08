@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/IP-address-tracker-solution/static/css/main.74652f15.css",
-    "main.js": "/IP-address-tracker-solution/static/js/main.9d2a6356.js",
+    "main.js": "/IP-address-tracker-solution/static/js/main.a5ba5c76.js",
     "static/media/pattern-bg.png": "/IP-address-tracker-solution/static/media/pattern-bg.a60a3c85aa8b88aac4b7.png",
     "index.html": "/IP-address-tracker-solution/index.html",
     "static/media/icon-location.svg": "/IP-address-tracker-solution/static/media/icon-location.7e6459d2a9278295ae782e100965be4b.svg",
     "static/media/icon-arrow.svg": "/IP-address-tracker-solution/static/media/icon-arrow.2eaaa5ee3602d5aa14a2dba69e9fb7a0.svg",
     "main.74652f15.css.map": "/IP-address-tracker-solution/static/css/main.74652f15.css.map",
-    "main.9d2a6356.js.map": "/IP-address-tracker-solution/static/js/main.9d2a6356.js.map"
+    "main.a5ba5c76.js.map": "/IP-address-tracker-solution/static/js/main.a5ba5c76.js.map"
   },
   "entrypoints": [
     "static/css/main.74652f15.css",
-    "static/js/main.9d2a6356.js"
+    "static/js/main.a5ba5c76.js"
   ]
 }
