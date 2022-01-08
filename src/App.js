@@ -4,13 +4,14 @@ import { connect } from 'react-redux'
 
 import BgImg from './images/pattern-bg.png'
 
-import Header from './components/Header/Header'
+import Header from './components/Header'
 import Search from './components/Search'
 import Information from './components/Information'
 import Map from './components/leaflet/Map'
+import Loading from './components/Loading'
+
 import { fetchTracker } from './store/actions'
 import { personalIP } from './store/actions/api'
-import Loading from './components/Loading'
 
 const Wrapper = styled.div`
   ${
@@ -49,7 +50,6 @@ class App extends Component {
   }
 
   render() {
-
     const { dataAPI: {data, isFetching} } = this.props
 
     if(data === 'empty' || isFetching) {

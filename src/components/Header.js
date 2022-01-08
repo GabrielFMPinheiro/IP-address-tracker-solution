@@ -19,9 +19,9 @@ const Title = styled.h1`
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <header>
         <Title>IP Address Tracker</Title>
-      </div>
+      </header>
     )
   }
 }

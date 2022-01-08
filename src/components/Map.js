@@ -32,7 +32,6 @@ class Map extends Component {
     const position = [data.lat, data.lng]
 
     return (
-      <div data-testid="map">
         <MapStyled center={ position } zoom={ 20 } scrollWheelZoom={true}>
             
           <TileLayer
@@ -45,7 +44,6 @@ class Map extends Component {
           <Marker position={position} icon={icon} />
 
         </MapStyled>
-      </div>
     )
   }
 }
