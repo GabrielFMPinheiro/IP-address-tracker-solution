@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import tw, { styled }  from 'twin.macro'
@@ -87,6 +88,13 @@ class Search extends Component {
       </InputWrapper>
     )
   }
+}
+
+Search.propTypes = {
+  error: PropTypes.string.isRequired,
+  fetchTracker: PropTypes.func.isRequired,
+  inputHandler: PropTypes.func.isRequired,
+  ipOrDomain: PropTypes.string.isRequired,
 }
 
 const mapDispatchToProps = (dispatch) => ({

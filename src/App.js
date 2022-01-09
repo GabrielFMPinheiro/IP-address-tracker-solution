@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import tw, { styled } from 'twin.macro'
 import { connect } from 'react-redux'
@@ -66,6 +67,14 @@ class App extends Component {
       </Wrapper>
     )
   }
+}
+
+App.propTypes = {
+  fetchTracker: PropTypes.func.isRequired,
+  dataAPI: PropTypes.shape({
+    data: PropTypes.any,
+    isFetching: PropTypes.bool,
+  }).isRequired
 }
 
 const mapDispatchToProps = (dispatch) => ({

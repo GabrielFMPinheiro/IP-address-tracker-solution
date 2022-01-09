@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import tw, { styled } from 'twin.macro'
@@ -121,6 +122,19 @@ class Information extends Component {
       </InfoWrapper>
     )
   }
+}
+
+Information.propTypes = {
+  data: PropTypes.shape({
+    ip: PropTypes.string,
+    isp: PropTypes.string,
+    location: PropTypes.shape({
+      city:PropTypes.string,
+      region:PropTypes.string,
+      timezone:PropTypes.string,
+      postalCode:PropTypes.string,
+    }).isRequired,
+  }).isRequired,
 }
 
 const mapStateToProps = (state) => ({

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import { MapContainer, TileLayer, Marker} from 'react-leaflet'
 import tw, { styled } from 'twin.macro'
@@ -46,6 +47,13 @@ class Map extends Component {
         </MapStyled>
     )
   }
+}
+
+Map.propTypes = {
+  data: PropTypes.shape({
+    lat: PropTypes.number,
+    lng: PropTypes.number,
+  }).isRequired
 }
 
 const mapStateToProps = (state) => ({
