@@ -25,10 +25,6 @@ Users should be able to:
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
-Personal Challenge:
-
-- Use redux
-
 ### Screenshot
 
 ![](./design/my_project_desktop.png)
@@ -59,6 +55,7 @@ Personal Challenge:
 - How to use Redux with async logic
 - How to use the Styled Component library
 - How to protect your API key
+- Exercise redux
 
 ### Useful resources
 
